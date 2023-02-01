@@ -1,0 +1,25 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #34495e;
+    color: #fff;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+.social-links i {
+    font-size: 20px;
+    color: #fff;
+}
+
+p {
+    margin: 0;
+}
