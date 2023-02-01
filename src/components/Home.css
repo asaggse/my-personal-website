@@ -1,0 +1,36 @@
+#home {
+    padding: 50px;
+    max-height: 100vh;
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+}
+
+.home-text {
+    width: 60%;
+    margin-right: 40px;
+}
+
+.home-text h3 {
+    font-size: 28px;
+    font-weight: normal;
+    /* margin-bottom: 16px; */
+}
+
+.home-text p {
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.home-pic {
+    width: 40%;
+}
+
+img {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+}
