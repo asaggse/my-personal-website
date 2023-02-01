@@ -1,0 +1,28 @@
+#skills {
+    padding: 50px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* height: 100%; */
+    width: 100%;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100px;
+    margin: 16px;
+
+    font-size: 100px;
+}
