@@ -8,6 +8,26 @@ body {
 }
 
 h2 {
-    font-size: 34px;
-    font-weight: bold;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.go-to-top {
+  background-color: white;
+  color: black;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border: none;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 15px 25px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.go-to-top:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
