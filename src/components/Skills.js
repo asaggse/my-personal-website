@@ -8,19 +8,19 @@ const Skills = () => {
                 <h2>Skills</h2>
                 <div className="skills-grid">
                     <div className="skills-grid-item">
-                        <i className="devicon-html5-plain colored"></i>
+                        <i class="devicon-html5-plain-wordmark colored"></i>
                     </div>
                     <div className="skills-grid-item">
-                        <i className="devicon-css3-plain colored"></i>
+                        <i class="devicon-css3-plain-wordmark colored"></i>
                     </div>
                     <div className="skills-grid-item">
                         <i className="devicon-javascript-plain colored"></i>
                     </div>
                     <div className="skills-grid-item">
-                        <i className="devicon-react-plain colored"></i>
+                        <i class="devicon-react-original-wordmark colored"></i>
                     </div>
                     <div className="skills-grid-item">
-                        <i className="devicon-github-plain colored"></i>
+                        <i class="devicon-github-original-wordmark colored"></i>
                     </div>
                 </div>
             </div>
