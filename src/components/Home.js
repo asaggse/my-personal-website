@@ -12,7 +12,7 @@ const Home = () => {
           <p>Scroll down ⬇</p>
         </div>
         <div className="Home-pic">
-          <img src={profilePic} alt="Profile Picture" />
+          <img src={profilePic} alt="Profile" />
         </div>
       </div>
     </section>
