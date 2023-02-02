@@ -1,22 +1,20 @@
 footer {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
     padding: 20px;
-    background-color: #34495e;
+    background-image: linear-gradient(to right, #003d93, #0068ba, #008baa, #00a76d, #5fba00);
     color: #fff;
 }
 
 .social-links {
     display: flex;
+    align-items: center;
 }
 
 .social-links a {
     margin-right: 10px;
-}
-
-.social-links i {
-    font-size: 20px;
     color: #fff;
 }
 
