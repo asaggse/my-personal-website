@@ -1,5 +1,6 @@
 .header {
-    background-color: #34495e;
+    /* background-color: #34495e; */
+    background-image: linear-gradient(to right, #003d93, #0068ba, #008baa, #00a76d, #5fba00);
     padding: 20px;
     display: flex;
     justify-content: space-between;
