@@ -3,6 +3,10 @@
     max-height: 100vh;
 }
 
+#aboutme h2 {
+    margin-bottom: 20px;
+}
+
 .about-container {
     display: flex;
     align-items: center;
