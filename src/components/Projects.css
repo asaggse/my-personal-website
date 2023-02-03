@@ -7,6 +7,10 @@
     margin-bottom: 20px;
 }
 
+#projects p {
+    margin-bottom: 10px;
+}
+
 .project-gallery {
     display: inline-block;
     flex-direction: column;
@@ -16,9 +20,7 @@
 .project-gallery img {
     width: 50%;
     height: auto;
-    margin: 1px 0;
-
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
 
