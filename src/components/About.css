@@ -7,6 +7,10 @@
     margin-bottom: 20px;
 }
 
+#aboutme p {
+    font-size: 21px;
+    font-weight: 500;
+}
 .about-container {
     display: flex;
     align-items: center;
