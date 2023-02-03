@@ -13,7 +13,7 @@ nav {
     width: 100%;
 }
 
-h1 {
+.header h1 {
     font-size: 24px;
     margin: 0;
     color: #fff;
@@ -29,7 +29,12 @@ li {
     margin: 0 20px;
 }
 
-a {
+.header a {
     color: #fff;
     text-decoration: none;
+}
+
+.header a:hover {
+    border-bottom: 2px solid white;
+    padding: 10px;
 }
