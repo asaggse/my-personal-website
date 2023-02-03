@@ -3,6 +3,10 @@
     max-height: 100vh;
 }
 
+#home h2 {
+    margin-bottom: 20px;
+}
+
 .home-container {
     display: flex;
     align-items: center;
@@ -26,10 +30,10 @@
 }
 
 .home-pic {
-    width: 40%;
+    width: 80%;
 }
 
-img {
+.home-pic img {
     width: 80%;
     height: auto;
     border-radius: 50%;
