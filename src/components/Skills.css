@@ -2,6 +2,10 @@
     padding: 50px;
 }
 
+#skills h2 {
+    margin-bottom: 20px;
+}
+
 .skills-container {
     display: flex;
     justify-content: center;
