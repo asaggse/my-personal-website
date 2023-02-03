@@ -16,6 +16,7 @@ footer {
 .social-links a {
     margin-right: 10px;
     color: #fff;
+    text-decoration: none;
 }
 
 p {
