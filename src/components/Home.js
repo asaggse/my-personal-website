@@ -11,7 +11,7 @@ const Home = () => {
           <h3>Welcome to my website</h3>
           <p>Scroll down ⬇</p>
         </div>
-        <div className="Home-pic">
+        <div className="home-pic">
           <img src={profilePic} alt="Profile" />
         </div>
       </div>
