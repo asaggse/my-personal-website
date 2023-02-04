@@ -3,38 +3,68 @@
     max-height: 100vh;
 }
 
-#home h2 {
-    margin-bottom: 20px;
-}
-
 .home-container {
     display: flex;
     align-items: center;
 }
 
 .home-text {
-    width: 60%;
-    margin-right: 40px;
-}
+    width: 100%;
+    margin-right: 25px;
 
-.home-text h3 {
-    font-size: 28px;
-    font-weight: normal;
-    margin-bottom: 16px;
-}
+    display: flex;
+    align-items: center;
 
-.home-text p {
-    font-size: 18px;
-    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
-.home-pic {
-    width: 80%;
+.main-text h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .home-pic img {
     width: 80%;
     height: auto;
     border-radius: 50%;
+    margin: 0 50px;
+}
+
+.main-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.main-text img {
+    width: 25%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.secondary-text {
+    margin-top: 0;
+}
+
+.secondary-text h3 {
+    font-size: 21px;
+    font-weight: normal;
+    margin: 0 0 16px;
+}
+
+.secondary-text p {
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
 }
