@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer>
       <div className="social-links">
-      <p>Seguimi su:&ensp;</p>
+      <p>Follow me on&ensp;</p>
         <a href="https://github.com/asaggse" target="_blank" rel="noreferrer">
           <i class="devicon-github-original"></i>
         </a>
@@ -16,6 +16,7 @@ function Footer() {
           <i class="devicon-twitter-original"></i>
         </a>
       </div>
+      <p className='made-with'>This site was made with: HTML, CSS, JavaScript, and React. </p>
       <p>Copyright &copy; Alessandro Saggese 2023</p>
     </footer>
   );
