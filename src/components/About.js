@@ -8,7 +8,7 @@ const About = () => {
         <div className="about-text">
           <h2>About Me</h2>
           <p>
-            Hi, I'm Alessandro Saggese and I'm a developer with a passion for solving problems and creating innovative solutions.
+            I'm a developer with a passion for solving problems and creating innovative solutions.
             I'm always learning and striving to improve my skills, and I'm excited to be a part of the development community.
             I believe that collaboration and continuous learning are key to success in this field, and I'm eager to work with others to build something great.
           </p>
