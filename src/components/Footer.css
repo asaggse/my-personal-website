@@ -21,4 +21,10 @@ footer {
 
 p {
     margin: 0;
+    font-size: 16px;
+
+}
+
+.made-with {
+    font-size: 12px;
 }
