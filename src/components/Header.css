@@ -32,9 +32,21 @@ li {
 .header a {
     color: #fff;
     text-decoration: none;
+    position: relative;
 }
 
-.header a:hover {
-    border-bottom: 2px solid white;
-    padding: 10px;
+a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: #fff;
+    transition: width 0.3s ease-in-out;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+a:hover::after {
+    width: 100%;
 }
