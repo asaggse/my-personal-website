@@ -1,0 +1,57 @@
+#contact {
+    padding: 40px;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 40px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+}
+
+#contact form button[type="submit"] {
+    width: 20%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    border: none;
+    background-color: #003D93;
+    color: white;
+    cursor: pointer;
+}
+
+#contact form button[type="submit"]:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.popup {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    position: absolute;
+    top: 320%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
