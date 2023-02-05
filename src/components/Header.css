@@ -1,5 +1,4 @@
 .header {
-    /* background-color: #34495e; */
     background-image: linear-gradient(to right, #003d93, #0068ba, #008baa, #00a76d, #5fba00);
     padding: 20px;
     display: flex;
@@ -11,6 +10,7 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
 }
 
 .header h1 {
