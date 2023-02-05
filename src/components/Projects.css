@@ -1,14 +1,21 @@
 #projects {
-    padding: 40px;
+    padding: 0 50px;
     text-align: center;
 }
 
 #projects h2 {
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#projects h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #projects p {
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .project-gallery {
@@ -18,7 +25,7 @@
 }
 
 .project-gallery img {
-    width: 50%;
+    width: 60%;
     height: auto;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -27,8 +34,8 @@
 .project-gallery button {
     display: inline-block;
     margin: 5px;
-    padding: 10px 20px;
-    border-radius: 25px;
+    /* padding: 10px 20px;
+    border-radius: 25px; */
     font-size: 1.2rem;
     cursor: pointer;
 
@@ -38,12 +45,21 @@
     border: none;
 }
 
-.project-gallery button:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+.project-gallery .arrow {
+    padding: 10px 15px;
+    border-radius: 100%;
 }
 
-.project-gallery a button {
+.project-gallery .primary-button {
+    border-radius: 50px;
+    padding: 10px 20px;
     color: #003D93;
+    transition: all .5s ease;
+    text-transform: capitalize;
+}
+
+.project-gallery .primary-button:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
