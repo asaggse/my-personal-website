@@ -22,8 +22,8 @@ h2 {
   padding: 15px 25px;
   border-radius: 50%;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 100px;
+  right: 25px;
 }
 
 .go-to-top:hover {
