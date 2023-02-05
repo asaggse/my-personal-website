@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <section id="home">
       <div className="home-container">
-        <div className="home-text">
+        <div className="home-text enterFromLeft">
           <div className="main-text">
             <img src={codeSolid} alt="code icon" />
             <h2>Hi, I'm Alessandro Saggese</h2>
@@ -19,7 +19,7 @@ const Home = () => {
           </div>
         </div>
         <div className="home-pic">
-          <img src={profilePic} alt="Profile" />
+          <img src={profilePic} alt="Profile" className="fadeIn" />
         </div>
       </div>
     </section>
