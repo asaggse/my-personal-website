@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./Projects.css"
+import "./Projects.css";
 // import projectImage1 from './images/Calculator.png';
 // import projectImage2 from './images/TicTacToe.png';
 // import projectImage3 from './images/image3.png';
@@ -8,7 +8,7 @@ const Project = () => {
     const projects = [
         { title: "Calculator", description: "A simple calculator application", image: require("./images/Calculator.png"), link: "https://asaggse.github.io/calculator-react/" },
         { title: "Tic Tac Toe", description: "A Tic Tac Toe game", image: require("./images/TicTacToe.png"), link: "https://asaggse.github.io/tic-tac-toe/" },
-        // { title: "Project 3", description: "Description 3", image: "projectImage3", link: "#" }
+        // { title: "Project", description: "Description", image: "projectImage", link: "#" }
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -38,11 +38,11 @@ const Project = () => {
                     <p>{projects[currentIndex].description}</p>
                     <img src={projects[currentIndex].image} alt={projects[currentIndex].title} />
                 </div>
-                <button onClick={handlePrevClick}>{'<'}</button>
+                <button className='arrow' onClick={handlePrevClick}>{'<'}</button>
                 <a href={projects[currentIndex].link} target="_blank" rel="noopener noreferrer">
-                    <button>Live Version</button>
+                    <button className='primary-button'>live demo</button>
                 </a>
-                <button onClick={handleNextClick}>{'>'}</button>
+                <button className='arrow' onClick={handleNextClick}>{'>'}</button>
             </div>
         </section>
     );
