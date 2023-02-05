@@ -1,4 +1,4 @@
-#skills {
+section#skills {
     padding: 50px;
 }
 
@@ -34,4 +34,10 @@
     padding: 16px 0px 16px 0px;
     border-radius: 10px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.skills-grid-item:hover {
+    transition: all .5s ease;
+    transform: scale(1.1);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.7);
 }
