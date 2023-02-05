@@ -68,3 +68,32 @@
     font-weight: lighter;
     text-align: center;
 }
+
+.enterFromLeft {
+    animation: enterFromLeft 2s ease-in-out;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 4s;
+}
+
+@keyframes enterFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
