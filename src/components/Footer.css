@@ -1,9 +1,8 @@
 footer {
     display: flex;
-    justify-content: space-between;
-    /* justify-content: center; */
+    justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 25px;
     background-image: linear-gradient(to right, #003d93, #0068ba, #008baa, #00a76d, #5fba00);
     color: #fff;
 }
