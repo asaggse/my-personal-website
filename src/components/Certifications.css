@@ -1,22 +1,7 @@
 /* #certifications {
     padding: 50px;
-    max-height: 100vh;
-}
-
-ul img {
-    width: 100%;
-}
-
-h3 {
     text-align: center;
-} */
-
-#certifications {
-    padding: 50px;
-    max-height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    position: relative;
 }
 
 #certifications ul {
@@ -28,14 +13,14 @@ h3 {
 
 #certifications li {
     width: 300px;
-    height: 350px;
-    /* margin: 50px; */
+    height: 450px;
+
+    margin: 0;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    transition: all 0.3s ease-in-out;
+    justify-content: space-evenly;
 }
 
 li:first-child {
@@ -46,25 +31,102 @@ li:last-child {
     margin-right: 50px;
 }
 
-li img:hover {
-    transform: scale(2);
-    box-shadow: 0 0 10px #ccc;
-}
-
 ul img {
     width: 80%;
-    /* height: 200px; */
-    /* object-fit: contain; */
 }
 
-h3 {
+#certifications h2 {
+    text-align: center;
+}
+
+#certifications h3 {
     text-align: center;
     font-size: 24px;
     margin-top: 20px;
 }
 
-p {
+#certifications p {
     font-size: 16px;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.close {
+    margin-left: 10px;
+} */
+
+#certifications {
+    padding: 50px;
+    text-align: center;
+    position: relative;
+}
+
+#certifications ul {
+    display: flex;
+    justify-content: center;
+}
+
+#certifications li {
+    width: 300px;
+    height: 450px;
+    /* margin: 0 50px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul img {
+    width: 100%;
+}
+
+#certifications h2,
+#certifications h3,
+#certifications p {
+    text-align: center;
+}
+
+#certifications h3 {
+    font-size: 24px;
+    /* margin-top: 20px; */
+    margin-bottom: 10px;
+}
+
+#certifications p {
+    font-size: 16px;
+    /* margin-bottom: 20px; */
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.close {
+    /* margin-left: 10px; */
+    font-size: 40px;
+}
+
+.modal-content.zoomed-in #certification-title {
+    display: none;
 }
