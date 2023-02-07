@@ -17,7 +17,7 @@ function Footer() {
         </a>
       </div>
       <p className='made-with'>This site was made with: HTML, CSS, JavaScript, and React. </p>
-      <p>Copyright &copy; Alessandro Saggese 2023</p>
+      <p>&copy; Copyright Alessandro Saggese 2023</p>
     </footer>
   );
 }
