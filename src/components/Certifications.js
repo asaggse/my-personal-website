@@ -4,19 +4,19 @@ import "./Certifications.css";
 const Certifications = () => {
     const [certifications] = useState([
         {
-            title: 'Front End Libraries',
-            description: 'freeCodeCamp',
-            image: require('./images/150x150-2-500x500.png'),
-        },
-        {
             title: 'Responsive Web Design',
             description: 'freeCodeCamp',
-            image: require('./images/150x150-2-500x500.png'),
+            image: require('./images/ResponsiveWebDesign.png'),
+        },
+        {
+            title: 'Front End Libraries',
+            description: 'freeCodeCamp',
+            image: require('./images/FrontEndLibraries.png'),
         },
         {
             title: 'Boolean Coding Week',
             description: 'Boolean',
-            image: require('./images/150x150-2-500x500.png'),
+            image: require('./images/BooleanCodingWeek.jpg'),
         },
     ]);
 
@@ -66,7 +66,7 @@ const Certifications = () => {
                         <div className='modal-header'>
                             <span className="close" onClick={handleClose}>×</span>
                         </div>
-                        <img src={zoom.image} alt={zoom.title} />
+                        <img src={zoom.image} alt={zoom.title} style={{ maxWidth: '100%', maxHeight: '100%' }}/>
                     </div>
                 </div>
             )}
