@@ -3,25 +3,17 @@
     text-align: center;
 }
 
-#projects h2 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-#projects h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
+#projects h2,
+#projects h3,
 #projects p {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 10px 0;
 }
 
 .project-gallery {
     display: inline-block;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .project-gallery img {
@@ -29,20 +21,21 @@
     height: auto;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .project-gallery button {
     display: inline-block;
     margin: 5px;
-    /* padding: 10px 20px;
-    border-radius: 25px; */
     font-size: 1.2rem;
     cursor: pointer;
-
+    text-align: center;
     background-color: white;
     color: black;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
 }
 
 .project-gallery .arrow {
