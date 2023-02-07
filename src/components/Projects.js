@@ -1,14 +1,11 @@
 import React, { useState } from 'react';
 import "./Projects.css";
-// import projectImage1 from './images/Calculator.png';
-// import projectImage2 from './images/TicTacToe.png';
-// import projectImage3 from './images/image3.png';
 
 const Project = () => {
     const projects = [
         { title: "Calculator", description: "A simple calculator application", image: require("./images/Calculator.png"), link: "https://asaggse.github.io/calculator-react/" },
         { title: "Tic Tac Toe", description: "A Tic Tac Toe game", image: require("./images/TicTacToe.png"), link: "https://asaggse.github.io/tic-tac-toe/" },
-        // { title: "Project", description: "Description", image: "projectImage", link: "#" }
+        { title: "Pong", description: "A simple game of Pong", image: require("./images/Pong.png"), link: "https://asaggse.github.io/pong-game/" }
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
