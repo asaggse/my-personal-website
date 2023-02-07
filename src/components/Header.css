@@ -1,5 +1,8 @@
 .header {
+    /* Blue to Green */
     background-image: linear-gradient(to right, #003d93, #0068ba, #008baa, #00a76d, #5fba00);
+    /* Green to White to Red */
+    /* background-image: linear-gradient(to right, #008c45, #559f5c, #82b278, #a9c598, #ccd9bb, #d0d6b4, #d5d3ae, #dbd0a9, #d4b077, #d28b4d, #d16132, #cd212a); */
     padding: 20px;
     display: flex;
     justify-content: space-between;
