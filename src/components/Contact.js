@@ -1,4 +1,3 @@
-// import React from 'react';
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser'
 import "./Contact.css"
@@ -45,19 +44,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-// const Contact = () => {
-//   return (
-//     <section id="contact">
-//       <h2>Contact Me</h2>
-//       <form>
-//         <input type="text" placeholder="Name" required />
-//         <input type="email" placeholder="Email" required />
-//         <textarea placeholder="Message" required />
-//         <button type="submit">Submit</button>
-//       </form>
-//     </section>
-//   );
-// };
-
-// export default Contact;
