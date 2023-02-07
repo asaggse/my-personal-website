@@ -1,6 +1,7 @@
 #aboutme {
     padding: 50px;
     max-height: 100vh;
+    position: relative;
 }
 
 #aboutme h2 {
@@ -29,4 +30,3 @@
     margin: 0 auto;
     text-align: justify;
 }
-
