@@ -5,7 +5,8 @@ const Project = () => {
     const projects = [
         { title: "Calculator", description: "A simple calculator application", image: require("./images/Calculator.png"), link: "https://asaggse.github.io/calculator-react/" },
         { title: "Tic Tac Toe", description: "A Tic Tac Toe game", image: require("./images/TicTacToe.png"), link: "https://asaggse.github.io/tic-tac-toe/" },
-        { title: "Pong", description: "A simple game of Pong", image: require("./images/Pong.png"), link: "https://asaggse.github.io/pong-game/" }
+        { title: "Pong", description: "A simple game of Pong", image: require("./images/Pong.png"), link: "https://asaggse.github.io/pong-game/" },
+        { title: "Custom Countdown", description: "A custom countdown", image: require("./images/CustomCountdown.png"), link: "https://asaggse.github.io/custom-countdown/" }
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
