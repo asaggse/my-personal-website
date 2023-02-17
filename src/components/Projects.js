@@ -3,6 +3,7 @@ import "./Projects.css";
 
 const Project = () => {
     const projects = [
+        { title: "Piano", description: "Piano is a simple piano app built with React that allows users to play piano notes by clicking on the virtual keys.", image: require("./images/Piano.png"), link: "https://asaggse.github.io/piano-react/" },
         { title: "Calculator", description: "A simple calculator application", image: require("./images/Calculator.png"), link: "https://asaggse.github.io/calculator-react/" },
         { title: "Tic Tac Toe", description: "A Tic Tac Toe game", image: require("./images/TicTacToe.png"), link: "https://asaggse.github.io/tic-tac-toe/" },
         { title: "Pong", description: "A simple game of Pong", image: require("./images/Pong.png"), link: "https://asaggse.github.io/pong-game/" },
