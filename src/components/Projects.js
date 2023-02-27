@@ -7,8 +7,9 @@ const Project = () => {
         { title: "Tic Tac Toe", description: "A Tic Tac Toe game", image: require("./images/TicTacToe.png"), link: "https://asaggse.github.io/tic-tac-toe/" },
         { title: "Calculator", description: "A simple calculator application", image: require("./images/Calculator.png"), link: "https://asaggse.github.io/calculator-react/" },
         { title: "Custom Countdown", description: "A custom countdown", image: require("./images/CustomCountdown.png"), link: "https://asaggse.github.io/custom-countdown/" },
-        { title: "Custom Countdown", description: "Caesar cipher", image: require("./images/CaesarCipher.png"), link: "https://asaggse.github.io/caesar-cipher-react/" },        
-        { title: "Caesar cipher", description: "Code your message", image: require("./images/DrumMachine.png"), link: "https://asaggse.github.io/drum-machine-react/" },
+        { title: "Password generator", description: "Generate random passwords", image: require("./images/PasswordGenerator.png"), link: "https://asaggse.github.io/password-generator-react/" },
+        { title: "Caesar cipher", description: "Code your message", image: require("./images/CaesarCipher.png"), link: "https://asaggse.github.io/caesar-cipher-react/" },        
+        { title: "Drum machine", description: "A drum machine", image: require("./images/DrumMachine.png"), link: "https://asaggse.github.io/drum-machine-react/" },
         { title: "Pong", description: "A simple game of Pong", image: require("./images/Pong.png"), link: "https://asaggse.github.io/pong-game/" },
     ];
 
